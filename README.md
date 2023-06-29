@@ -33,24 +33,29 @@ Histogram of Subjectivity
 How Content Rating affect over the App ?
 
 # Datasets 
-Dataset1- Playstore data
-1.App: Name of App
-2.Category: a group of apps that have similar features, functionality, and themes
-3.Rating: a score or measurement of how good or popular it is.out of 5 rating given by user
-4.Reviews: Count of reviews given by users
-5.Size: The memory size needed to install the application.
-6.Installs: The number of times each application has been installed by users
-7.Type: either it is paid or free
-8.Price: if paid then price
-9.Content Rating: This column specifies the intended audience for the app. Can be for teens, mature audience, or everyone.
-10.Genres: The sub-category for each app. Example: for the Education category, this could be Education: Pretend Play, for example
-11.Last Updated: Release date of the most recent update for the app
-12.Current Ver: Current version of the app available on Play Store
-13.Android Ver:The oldest version of Android OS supported by the app.
+### **Dataset1- Playstore data**
 
-Dataset2- Users rewiews
-1.App: Name of the app.
-2.Translated_Review: Either the original review in English, or a translated version if the orignal review is in another language.
-3.Sentiment: The result of the sentiment analysis conducted on a review. The value is either Positive, Neutral or Negative.
-4.Sentiment_Polarity: A value indicating the positivity or negativity of the sentiment, values range from -1 (most negative) to 1 (most positive). Sentiment polarity for an element defines the orientation of the expressed sentiment, i.e. it determines if the text expresses the positive, negative or neutral sentiment of the user about the entity in consideration.
-5.Sentiment_Subjectivity: A value from 0 to 1 indicating the subjectivity of the review. Lower values indicate the review is based on factual information, and higher values indicate the review is based on personal or public opinions or judgements.
+ **1.App:**  Name of App      
+ **2.Category:**  a group of apps that have similar features, functionality, and themes            
+ **3.Rating:**   a score or measurement of how good or popular it is.out of 5 rating given by user      
+ **4.Reviews:**  Count of reviews given by users       
+ **5.Size:**    The memory size needed to install the application.          
+ **6.Installs:** The number of times each application has been installed by users        
+ **7.Type:**   either it is paid or free        
+ **8.Price:**  if paid then price          
+ **9.Content Rating**: This column specifies the intended audience for the app. Can be for teens, mature audience, or everyone.  
+ **10.Genres:** The sub-category for each app. Example: for the Education category, this could be Education: Pretend Play, for example         
+ **11.Last Updated:** Release date of the most recent update for the app    
+ **12.Current Ver:** Current version of the app available on Play Store     
+ **13.Android Ver:**The oldest version of Android OS supported by the app.  
+
+
+### **Dataset2- Users rewiews**
+
+  **1.App:**  Name of the app.                  
+  **2.Translated_Review:** Either the original review in English, or a translated version if the orignal review is in another language.       
+  **3.Sentiment:** The result of the sentiment analysis conducted on a review. The value is either Positive, Neutral or Negative.       
+  **4.Sentiment_Polarity:** A value indicating the positivity or negativity of the sentiment, values range from -1 (most negative) to 1 (most positive). Sentiment polarity for an element defines the orientation of the expressed sentiment, i.e. it determines if the text expresses the positive, negative or neutral sentiment of the user about the entity in consideration.     
+  **5.Sentiment_Subjectivity:** A value from 0 to 1 indicating the subjectivity of the review. Lower values indicate the review is based on factual information, and higher values indicate the review is based on personal or public opinions or judgements.
+
+ 
