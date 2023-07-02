@@ -57,5 +57,40 @@ How Content Rating affect over the App ?
   **3.Sentiment:** The result of the sentiment analysis conducted on a review. The value is either Positive, Neutral or Negative.       
   **4.Sentiment_Polarity:** A value indicating the positivity or negativity of the sentiment, values range from -1 (most negative) to 1 (most positive). Sentiment polarity for an element defines the orientation of the expressed sentiment, i.e. it determines if the text expresses the positive, negative or neutral sentiment of the user about the entity in consideration.     
   **5.Sentiment_Subjectivity:** A value from 0 to 1 indicating the subjectivity of the review. Lower values indicate the review is based on factual information, and higher values indicate the review is based on personal or public opinions or judgements.
+  
+# ▶**Analysis Summary**
+In this project of analyzing play store applications, we have worked on several parameters which would help AlmaBetter to do well in launching their apps on the play store.
+In the initial phase, we focused more on the problem statements and data cleaning, in order to ensure that we give them the best results out of our analysis.
+* Percentage of free apps = ~92%
+* Percentage of apps with no age restrictions = ~82%
+* Most competitive category: Family
+* Category with the highest average app installs: Game
+* Percentage of apps that are top rated = ~80%
+* Family, Game and Tools are top three categories having 1906, 926 and 829 app count.
+* Tools, Entertainment, Education, Buisness and Medical are top Genres.
+* 8783 Apps are having size less than 50 MB. 7749 Apps are having rating more than 4.0 including both type of apps.
+* There are 20 free apps that have been installed over a billion times.
+* Minecraft is the only app in the paid category with over 10M installs. This app has also produced the most revenue only from the installation fee.
+* Category in which the paid apps have the highest average installation fee: Finance
+* The median size of all apps in the play store is 12 MB.
+* The apps whose size varies with device has the highest number average app installs.
+* The apps whose size is greater than 90 MB has the highest number of average user reviews, ie, they are more popular than the rest.
+* Helix Jump has the highest number of positive reviews and Angry Birds Classic has the highest number of negative reviews.
+* Overall sentiment count of merged dataset in which Positive sentiment count is 64%, Negative 22% and Neutral 13%.
 
+  So here we come at the end of our project which is play store App Review Analysis.What we have done just take a short recap. First we have done the removal of null value from rows and columns and the same goes with the removal of duplicates from the datasets. Then we did the formatting for each of the required columns in each dataset.
+
+After analyzing the data we conclude that App with the category Family and the genre tools are in large numbers. Also we can conclude that the number App Rating is directly proportional with the recent update. From this we can see that with all the major updates apps will get more ratings.
+
+We can also conclude that most of the apps which are used by the users have a content rating of ‘Everyone’.
+
+In percentage of Free and Paid App Available in the PlayStore we can assume that most apps being used by the users are Free. This shows very few users purchase Apps on playstore.
+
+In rating vs count of App Type we conclude that rating is not get affected even if the app is paid or not but if we go on for finding the average rating we will find that free app will have less average rating compared to paid because of significantly high counts of free Apps as compared to Paid App available in App Store.
+
+After moving forward when we performed analysis on sentiment subjectivity we found that most of the opinion on sentiment subjectivity lies high in the range 0.4 to 0.7.
+
+When we analyzed sentiment polarity for paid and free Apps we noticed that sentiment polarity for free apps is way less than paid Apps.
+
+In pie presenting the percentages of review sentiment we found that most of the sentiment are positive and neutral review is the lowest. Also in case finding the percentage of sentiments for top 5 Apps we found among top 5 App Category Health and Fitness has received the highest positive sentiments while Game app category has received the highest negative sentiments and Sports App Category has received the highest neutral sentiments.
  
